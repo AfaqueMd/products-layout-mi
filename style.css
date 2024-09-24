@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Nunito sans";
+    background-color: #f7f7f7;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 8px -5px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo{
+    width: 30px;
+    border-radius: 42%;
+    padding: 0px 18px;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 0 px 5px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+}
+
+.products{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products-cards{
+    width: 250px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 18px;
+    margin: 20px 0px;
+}
+.products-cards .discount{
+    width: 60px;
+    text-align: center;
+    margin: 10px 0px;
+    border: 1px solid #ffb89b;
+    border-radius: 5px;
+    background-color: #ffe9de;
+    color: #ff8330;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+.products-cards h3{
+    font-size: 18px;
+    font-weight:700;
+    color: rgb(22, 22, 22);
+}
+.products-info{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align:center;
+}
+.products-info img{
+    width: 140px;
+    margin-bottom: 20px;
+}
+.products-info .old-price{
+    text-decoration: line-through;
+    color: #a19c9a;
+    font-size: 15px;
+    text-align:unset;
+}
+.products-info .old-price span{
+    font-size: 12px;
+    text-decoration: line-through;
+    text-align:end;
+}
+.products-info .current-price{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.products-info .current-price span{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+
+
+
